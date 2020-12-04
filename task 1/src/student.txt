@@ -1,0 +1,15 @@
+create database students;
+use students;
+create table student(
+	sid int not null,
+	sname varchar(50) not null,
+	slname varchar(50) not null
+);
+
+insert into student(sid,sname,slname)
+values(1,"Swapnil","Sonawane");
+insert into student(sid,sname,slname)
+values(2,"Sahil","gaikwad");
+insert into student(sid,sname,slname)
+values(3,"abcd","xyz");
+select * from student;
